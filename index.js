@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3001;
 
-app.get('/', (req, res) => {
-  res.send('Hola, este es un servidor Express! jfjsjfbbfb');
+app.get('/index.js', (req, res) => {
+  res.send('otro');
 });
 
 app.listen(port, () => {
